@@ -1,0 +1,1090 @@
+[
+    {
+        "id": "tab1",
+        "type": "tab",
+        "label": "Login",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "53035468cc5bdc08",
+        "type": "tab",
+        "label": "Dashbaord OEE PT Astra",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e49b3c653e134583",
+        "type": "tab",
+        "label": "Input",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "19106f5174be4a2b",
+        "type": "ui_group",
+        "name": "AGV System",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "a2830b18a5fcf5e1",
+        "type": "ui_group",
+        "name": "Conveyor System",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "d9773c37c977d479",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4ce7e4f0537c210e",
+        "type": "ui_tab",
+        "name": "Material Handling",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9f67aeb8f6e9a1e4",
+        "type": "ui_group",
+        "name": "AGV Input",
+        "tab": "4ce7e4f0537c210e",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "ba07932857d2ccfb",
+        "type": "ui_group",
+        "name": "AGV Result",
+        "tab": "4ce7e4f0537c210e",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "4910e508bdb86d1e",
+        "type": "ui_group",
+        "name": "Conveyor Input",
+        "tab": "4ce7e4f0537c210e",
+        "order": 3,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "20553897add8e2ad",
+        "type": "ui_group",
+        "name": "Conveyor Result",
+        "tab": "4ce7e4f0537c210e",
+        "order": 4,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "t1t1t1t1t1t1t1",
+        "type": "ui_tab",
+        "name": "MES OEE",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "g1g1g1g1g1g1g1",
+        "type": "ui_group",
+        "name": "OEE Dashboard",
+        "tab": "t1t1t1t1t1t1t1",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "t6t6t6t6t6t6t6",
+        "type": "ui_tab",
+        "name": "OEE Website",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "g5g5g5g5g5g5g5",
+        "type": "ui_group",
+        "name": "OEE Dashboard Modern",
+        "tab": "t6t6t6t6t6t6t6",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "landing_tab",
+        "type": "ui_tab",
+        "name": "MES Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "landing_group",
+        "type": "ui_group",
+        "name": "Landing",
+        "tab": "landing_tab",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "tab_mesin1",
+        "type": "ui_tab",
+        "name": "Mesin 1",
+        "icon": "bar-chart",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "grp_mesin1",
+        "type": "ui_group",
+        "name": "Mesin 1 - Detail",
+        "tab": "tab_mesin1",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "tab_landing",
+        "type": "ui_tab",
+        "name": "Landing",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "tab_mesin2",
+        "type": "ui_tab",
+        "name": "Mesin 2",
+        "icon": "bar-chart",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "group_landing_nav",
+        "type": "ui_group",
+        "name": "Landing",
+        "tab": "tab_landing",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "grp_mesin2",
+        "type": "ui_group",
+        "name": "Mesin 2 - Detail",
+        "tab": "tab_mesin2",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "14cbcd11d9efefee",
+        "type": "ui_group",
+        "name": "Input Data Mesin 1",
+        "tab": "tab_mesin1",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "449bf18151f76eff",
+        "type": "ui_group",
+        "name": "Grafik & Laporan Mesin 1",
+        "tab": "tab_mesin1",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "tab_oee_tab",
+        "type": "ui_tab",
+        "name": "Mesin 1",
+        "icon": "bar-chart",
+        "order": 1
+    },
+    {
+        "id": "group_input",
+        "type": "ui_group",
+        "name": "Input Data Produksi",
+        "tab": "tab_oee_tab",
+        "order": 1,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "group_output",
+        "type": "ui_group",
+        "name": "Laporan OEE",
+        "tab": "tab_oee_tab",
+        "order": 2,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "ui_tab_oee",
+        "type": "ui_tab",
+        "name": "Mesin 1",
+        "icon": "bar-chart",
+        "order": 1
+    },
+    {
+        "id": "ui_group_input",
+        "type": "ui_group",
+        "name": "Input Data Produksi",
+        "tab": "ui_tab_oee",
+        "order": 1,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "ui_group_output",
+        "type": "ui_group",
+        "name": "Laporan OEE",
+        "tab": "ui_tab_oee",
+        "order": 2,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "4fec0ad977c34305",
+        "type": "MySQLdatabase",
+        "name": "Local MySQL",
+        "host": "localhost",
+        "port": "3306",
+        "db": "oee_system",
+        "tz": ""
+    },
+    {
+        "id": "a45c2102657ca9c4",
+        "type": "MySQLdatabase",
+        "name": "Local MySQL",
+        "host": "localhost",
+        "port": "3306",
+        "db": "oee_system",
+        "tz": ""
+    },
+    {
+        "id": "581b048ee8406a7e",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "oee_system",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "6a6b5141946aaa4d",
+        "type": "MySQLdatabase",
+        "name": "Local MySQL",
+        "host": "localhost",
+        "port": "3306",
+        "db": "oee_system",
+        "tz": ""
+    },
+    {
+        "id": "mysql_config_user",
+        "type": "MySQLdatabase",
+        "name": "MySQL Local",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "oee_db",
+        "tz": ""
+    },
+    {
+        "id": "load_global_css_js",
+        "type": "inject",
+        "z": "tab1",
+        "name": "Global CSS+JS Loader",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "x": 210,
+        "y": 100,
+        "wires": [
+            [
+                "set_global_assets"
+            ]
+        ]
+    },
+    {
+        "id": "set_global_assets",
+        "type": "function",
+        "z": "tab1",
+        "name": "Set CSS & JS Global",
+        "func": "global.set(\"styleloginCSS\", `\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');\n\n:root {\n    --bg: #0f1724;\n    --card: #0b1220;\n    --muted: #98a0b3;\n    --accent: #06b6d4;\n    --success: #10b981;\n    --danger: #ef4444;\n    --glass: rgba(255, 255, 255, 0.03);\n    --glass-2: rgba(255, 255, 255, 0.02);\n}\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: 'Montserrat', sans-serif;\n}\n\nbody {\n    background: var(--bg);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: column;\n    height: 100vh;\n    color: var(--muted);\n}\n\n.container {\n    background-color: var(--card);\n    border-radius: 30px;\n    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);\n    position: relative;\n    overflow: hidden;\n    width: 768px;\n    max-width: 100%;\n    min-height: 480px;\n}\n\n.container p {\n    font-size: 14px;\n    line-height: 20px;\n    letter-spacing: 0.3px;\n    margin: 20px 0;\n    color: var(--muted);\n}\n\n.container span {\n    font-size: 12px;\n    color: var(--muted);\n}\n\n.container a {\n    color: var(--accent);\n    font-size: 13px;\n    text-decoration: none;\n    margin: 15px 0 10px;\n}\n\n/* Tombol */\n.container button,\n.container .btn-login,\n.container .btn-register {\n    background: linear-gradient(to right, var(--accent), var(--success));\n    color: #fff;\n    font-size: 12px;\n    padding: 10px 45px;\n    border: none;\n    border-radius: 8px;\n    font-weight: 600;\n    letter-spacing: 0.5px;\n    text-transform: uppercase;\n    margin-top: 10px;\n    cursor: pointer;\n    transition: background 0.3s ease;\n}\n\n.container button:hover,\n.container .btn-login:hover,\n.container .btn-register:hover {\n    background: linear-gradient(to right, var(--success), var(--accent));\n}\n\n.container button.hidden,\n.container .btn-login.hidden,\n.container .btn-register.hidden {\n    background-color: transparent;\n    border: 2px solid #fff;\n}\n\n/* Efek berbeda antara Sign In dan Sign Up */\n.container .btn-login {\n    background: linear-gradient(to right, var(--success), var(--accent));\n}\n\n.container .btn-login:hover {\n    background: linear-gradient(to right, var(--accent), var(--success));\n}\n\n.container form {\n    background-color: var(--card);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: column;\n    padding: 0 40px;\n    height: 100%;\n}\n\n.container input {\n    background-color: var(--glass);\n    border: 1px solid var(--glass-2);\n    margin: 8px 0;\n    padding: 10px 15px;\n    font-size: 13px;\n    border-radius: 8px;\n    width: 100%;\n    outline: none;\n    color: #fff;\n}\n\n.container input::placeholder {\n    color: var(--muted);\n}\n\n.form-container {\n    position: absolute;\n    top: 0;\n    height: 100%;\n    transition: all 0.6s ease-in-out;\n}\n\n.sign-in {\n    left: 0;\n    width: 50%;\n    z-index: 2;\n}\n\n.container.active .sign-in {\n    transform: translateX(100%);\n}\n\n.sign-up {\n    left: 0;\n    width: 50%;\n    opacity: 0;\n    z-index: 1;\n}\n\n.container.active .sign-up {\n    transform: translateX(100%);\n    opacity: 1;\n    z-index: 5;\n    animation: move 0.6s;\n}\n\n@keyframes move {\n    0%, 49.99% {\n        opacity: 0;\n        z-index: 1;\n    }\n    50%, 100% {\n        opacity: 1;\n        z-index: 5;\n    }\n}\n\n.social-icons {\n    margin: 20px 0;\n}\n\n.social-icons a {\n    border: 1px solid var(--accent);\n    border-radius: 20%;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    margin: 0 3px;\n    width: 40px;\n    height: 40px;\n    color: var(--accent);\n}\n\n/* Toggle area */\n.toggle-container {\n    position: absolute;\n    top: 0;\n    left: 50%;\n    width: 50%;\n    height: 100%;\n    overflow: hidden;\n    transition: all 0.6s ease-in-out;\n    border-radius: 150px 0 0 100px;\n    z-index: 1000;\n}\n\n.container.active .toggle-container {\n    transform: translateX(-100%);\n    border-radius: 0 150px 100px 0;\n}\n\n.toggle {\n    background: linear-gradient(to right, var(--accent), var(--success));\n    color: #fff;\n    position: relative;\n    left: -100%;\n    height: 100%;\n    width: 200%;\n    transform: translateX(0);\n    transition: all 0.6s ease-in-out;\n}\n\n.container.active .toggle {\n    transform: translateX(50%);\n}\n\n.toggle-panel {\n    position: absolute;\n    width: 50%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: column;\n    padding: 0 30px;\n    text-align: center;\n    top: 0;\n    transform: translateX(0);\n    transition: all 0.6s ease-in-out;\n}\n\n.toggle-left {\n    transform: translateX(-200%);\n}\n\n.container.active .toggle-left {\n    transform: translateX(0);\n}\n\n.toggle-right {\n    right: 0;\n    transform: translateX(0);\n}\n\n.container.active .toggle-right {\n    transform: translateX(200%);\n}\n\n/* Mobile Adaptive */\n@media only screen and (min-width: 320px) and (max-width: 767px) {\n    .container {\n        width: 330px;\n        min-height: 500px;\n    }\n    .social-icons a {\n        font-size: 10px;\n        width: 30px;\n        height: 30px;\n    }\n    h1 {\n        font-size: 20px;\n        color: #fff;\n    }\n    a {\n        font-size: 10px;\n    }\n    .container form {\n        font-size: 15px;\n    }\n    .container input {\n        font-size: 10px;\n        width: 120%;\n    }\n    .container button {\n        font-size: 11px;\n        padding: 5px 25px;\n    }\n}\n\n`);\n\nglobal.set(\"scriptloginJS\", `const container = document.getElementById('container');\nconst registerBtn = document.getElementById('register');\nconst loginBtn = document.getElementById('login');\nregisterBtn.addEventListener('click', () => {\n    container.classList.add('active');\n});\nloginBtn.addEventListener('click', () => {\n    container.classList.remove('active');\n});`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b69fa93b267445db",
+        "type": "http in",
+        "z": "tab1",
+        "name": "Login Page",
+        "url": "/login",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "534456981c15188f"
+            ]
+        ]
+    },
+    {
+        "id": "534456981c15188f",
+        "type": "template",
+        "z": "tab1",
+        "name": "Animated Login HTML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Animated Login Form</title>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\">\n  <style>{{{global.styleloginCSS}}}</style>\n</head>\n<body>\n  <div class=\"container\" id=\"container\">\n    <div class=\"form-container sign-up\">\n      <form action=\"/signup\" method=\"post\">\n        <h1>Create Account</h1>\n        <span>or use your Username for registration</span>\n        <input type=\"text\" name=\"username\" placeholder=\"Username\" required>\n        <input type=\"password\" name=\"password\" placeholder=\"Password\" required>\n        <button type=\"submit\">Sign Up</button>\n      </form>\n    </div>\n\n    <div class=\"form-container sign-in\">\n      <form action=\"/login\" method=\"post\">\n        <h1>Sign In</h1>\n        <span>or use your Username for registration</span>\n        <input type=\"text\" name=\"username\" placeholder=\"Username\" required>\n        <input type=\"password\" name=\"password\" placeholder=\"Password\" required>\n        <button type=\"submit\">Sign In</button>\n      </form>\n    </div>\n\n    <div class=\"toggle-container\">\n      <div class=\"toggle\">\n        <div class=\"toggle-panel toggle-left\">\n          <h1>Welcome Back!</h1>\n          <p>Enter your Username and password to use OEE Dashboard</p>\n          <button class=\"hidden btn-login\" id=\"login\">Sign In</button>\n        </div>\n        <div class=\"toggle-panel toggle-right\">\n          <h1>Hello, User!</h1>\n          <p>Register with your Username and password to use OEE Dashboard</p>\n          <button class=\"hidden btn-register\" id=\"register\">Sign Up</button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>{{{global.scriptloginJS}}}</script>\n</body>\n</html>",
+        "output": "str",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "704c929dfe888d72"
+            ]
+        ]
+    },
+    {
+        "id": "704c929dfe888d72",
+        "type": "http response",
+        "z": "tab1",
+        "name": "HTTP Response",
+        "statusCode": "",
+        "headers": {},
+        "x": 610,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "7ea0c8c323f22f72",
+        "type": "http in",
+        "z": "tab1",
+        "name": "Login Handler",
+        "url": "/login",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "0f9a108301a19810"
+            ]
+        ]
+    },
+    {
+        "id": "0f9a108301a19810",
+        "type": "function",
+        "z": "tab1",
+        "name": "Check Login",
+        "func": "const user = msg.req.body.username;\nconst pass = msg.req.body.password;\nmsg.topic = `SELECT * FROM user WHERE username='${user}' AND password='${pass}'`;\nreturn msg;",
+        "outputs": 1,
+        "x": 350,
+        "y": 340,
+        "wires": [
+            [
+                "8b58065909beb2b2"
+            ]
+        ]
+    },
+    {
+        "id": "8b58065909beb2b2",
+        "type": "mysql",
+        "z": "tab1",
+        "mydb": "581b048ee8406a7e",
+        "name": "MySQL - Check User",
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "2c807a44ab60d1dd"
+            ]
+        ]
+    },
+    {
+        "id": "2c807a44ab60d1dd",
+        "type": "function",
+        "z": "tab1",
+        "name": "Login Result",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    msg.statusCode = 302;\n    msg.headers = { Location: '/oee' }; // redirect ke dashboard\n    msg.payload = '';\n} else {\n    msg.payload = \"<p>Login gagal. <a href='/login'>Coba lagi</a></p>\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 340,
+        "wires": [
+            [
+                "704c929dfe888d72"
+            ]
+        ]
+    },
+    {
+        "id": "6d286f32e85cde75",
+        "type": "http in",
+        "z": "tab1",
+        "name": "Signup Handler",
+        "url": "/signup",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 520,
+        "wires": [
+            [
+                "8f15a4b277c4c235"
+            ]
+        ]
+    },
+    {
+        "id": "8f15a4b277c4c235",
+        "type": "function",
+        "z": "tab1",
+        "name": "Insert User",
+        "func": "const user = msg.req.body.username;\nconst pass = msg.req.body.password;\nmsg.topic = `INSERT INTO user (username, password) VALUES ('${user}', '${pass}')`;\nreturn msg;",
+        "outputs": 1,
+        "x": 360,
+        "y": 520,
+        "wires": [
+            [
+                "07f7d0386b3d6ab2"
+            ]
+        ]
+    },
+    {
+        "id": "07f7d0386b3d6ab2",
+        "type": "mysql",
+        "z": "tab1",
+        "mydb": "581b048ee8406a7e",
+        "name": "MySQL - Insert User",
+        "x": 580,
+        "y": 520,
+        "wires": [
+            [
+                "44eda5b2c7985c05"
+            ]
+        ]
+    },
+    {
+        "id": "44eda5b2c7985c05",
+        "type": "function",
+        "z": "tab1",
+        "name": "Signup Done",
+        "func": "msg.payload = `<!DOCTYPE html><html><head><meta charset='UTF-8'><script>alert('✅ Pendaftaran berhasil! Anda akan diarahkan ke halaman login.'); window.location.href='/login';</script></head><body></body></html>`;\nreturn msg;",
+        "outputs": 1,
+        "x": 790,
+        "y": 520,
+        "wires": [
+            [
+                "704c929dfe888d72"
+            ]
+        ]
+    },
+    {
+        "id": "ec98054db755e093",
+        "type": "inject",
+        "z": "53035468cc5bdc08",
+        "name": "Global OEE CSS+JS Loader",
+        "props": [],
+        "repeat": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "e7ee5658cce4b6af"
+            ]
+        ]
+    },
+    {
+        "id": "e7ee5658cce4b6af",
+        "type": "function",
+        "z": "53035468cc5bdc08",
+        "name": "Set OEE CSS & JS",
+        "func": "global.set(\"styleCSS\", `:root {\n  --bg: #0f1724;\n  --card: #0b1220;\n  --muted: #98a0b3;\n  --accent: #06b6d4;\n  --success: #10b981;\n  --danger: #ef4444;\n  --glass: rgba(255,255,255,0.03);\n  --glass-2: rgba(255,255,255,0.02);\n}\n\n* { box-sizing: border-box; }\n\nhtml, body {\n  height: 100%;\n  margin: 0;\n  font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;\n  background: linear-gradient(180deg, #06121a 0%, #071728 60%);\n  color: #e6eef6;\n}\n\n.wrap { max-width: 1200px; margin: 28px auto; padding: 20px; }\n\nheader {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 18px;\n}\n\nh1 { font-size: 20px; margin: 0; }\n\n.controls { display: flex; gap: 10px; align-items: center; }\n\nselect, input[type=checkbox] {\n  background: transparent;\n  border: 1px solid var(--glass);\n  color: var(--muted);\n  padding: 8px;\n  border-radius: 8px;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(12, 1fr);\n  gap: 14px;\n}\n\n.card {\n  background: linear-gradient(180deg, var(--card), rgba(10, 16, 24, 0.8));\n  padding: 14px;\n  border-radius: 12px;\n  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);\n  border: 1px solid var(--glass-2);\n  transition: all 0.3s ease; /* ✨ Tambahkan animasi halus */\n}\n\n/* ✨ Efek interaktif ketika hover di KPI cards */\n.card.span-3:hover {\n  transform: scale(1.05);\n  box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);\n  border-color: var(--accent);\n  background: linear-gradient(180deg, rgba(11, 18, 32, 0.95), rgba(15, 23, 36, 0.95));\n}\n\n.kpi { display: flex; gap: 12px; align-items: center; }\n.kpi .big { font-size: 28px; font-weight: 700; }\n\n.chip {\n  padding: 6px 10px;\n  border-radius: 999px;\n  background: rgba(255,255,255,0.03);\n  border: 1px solid var(--glass);\n  color: var(--muted);\n  font-size: 13px;\n}\n\n.span-3 { grid-column: span 3; }\n.span-6 { grid-column: span 6; }\n.span-12 { grid-column: span 12; }\n\ntable {\n  width: 100%;\n  border-collapse: collapse;\n  color: var(--muted);\n  font-size: 13px;\n}\n\nth, td {\n  padding: 8px 6px;\n  text-align: left;\n}\n\nth {\n  color: #cfe8f4;\n  font-weight: 600;\n  font-size: 13px;\n}\n\ntr + tr td { border-top: 1px dashed rgba(255,255,255,0.03); }\n\nfooter {\n  margin-top: 18px;\n  color: var(--muted);\n  font-size: 13px;\n  text-align: center;\n}\n\n@media (max-width:900px){\n  .span-3,.span-6{grid-column:span 12;}\n  header{flex-direction:column;align-items:flex-start;gap:10px;}\n}\n/* Header Container */\n.oee-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background: linear-gradient(135deg, var(--accent), #0056b3);\n  color: white;\n  padding: 20px 32px;\n  border-radius: 12px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  margin-bottom: 24px;\n  transition: all 0.3s ease;\n}\n\n/* Header Left Side */\n.oee-header .header-left h1 {\n  margin: 0;\n  font-size: 1.5rem;\n  font-weight: 700;\n  letter-spacing: 0.5px;\n}\n\n.oee-header .subtitle {\n  margin-top: 4px;\n  font-size: 13px;\n  color: #e0e0e0;\n}\n\n/* Header Right (Button Area) */\n.btn-accent {\n  background: white;\n  color: var(--accent);\n  border: none;\n  border-radius: 10px;\n  padding: 10px 20px;\n  font-weight: 600;\n  font-size: 14px;\n  cursor: pointer;\n  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);\n  transition: all 0.3s ease;\n}\n\n.btn-accent:hover {\n  background: #f1f1f1;\n  transform: translateY(-2px);\n}\n\n.btn-accent:active {\n  transform: scale(0.98);\n}\n\nfooter {\n  margin-top: 40px;\n  padding: 20px 10px;\n  background: rgba(255, 255, 255, 0.03);\n  border: 1px solid var(--glass-2);\n  border-radius: 12px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);\n  text-align: center;\n  font-size: 13px;\n  color: var(--muted);\n  backdrop-filter: blur(8px);\n  transition: all 0.3s ease;\n}\n\n/* Efek hover lembut */\nfooter:hover {\n  border-color: var(--accent);\n  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);\n}\n\n/* Footer text */\nfooter p {\n  margin: 4px 0;\n  font-weight: 500;\n}\n\n/* Tombol Export CSV */\n.footer-export-btn {\n  background: var(--success);\n  color: white;\n  padding: 10px 22px;\n  border: none;\n  border-radius: 10px;\n  cursor: pointer;\n  font-weight: 600;\n  font-size: 14px;\n  margin-top: 10px;\n  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);\n  transition: all 0.3s ease;\n}\n\n/* Efek interaktif */\n.footer-export-btn:hover {\n  background: #0dd48f;\n  transform: translateY(-2px);\n  box-shadow: 0 6px 14px rgba(16, 185, 129, 0.4);\n}\n\n.footer-export-btn:active {\n  transform: scale(0.97);\n}\n\n`);\n\n\nglobal.set(\"scriptJS\", `\nconst computeOEE=(a,p,q)=>+(a/100*p/100*q/100*100).toFixed(2);\n\nasync function fetchData(){\n  const res = await fetch('/oee/data');\n  return res.json();\n}\n\nconst elA=document.getElementById('kpiAvailability'),\n      elP=document.getElementById('kpiPerformance'),\n      elQ=document.getElementById('kpiQuality'),\n      elO=document.getElementById('kpiOEE');\nconst tbody=document.querySelector('#machinesTable tbody');\nlet oeeTrendChart, lossesChart;\n\nfunction createCharts(){\n  const ctx1=document.getElementById('oeeTrendChart').getContext('2d');\n  const ctx2=document.getElementById('lossesChart').getContext('2d');\n\n  oeeTrendChart=new Chart(ctx1,{\n    type:'line',\n    data:{\n      labels:['-5h','-4h','-3h','-2h','-1h','Now'],\n      datasets:[{label:'OEE %',data:[],tension:0.3,borderWidth:2,fill:true}]\n    },\n    options:{\n      scales:{y:{beginAtZero:true,max:100}},\n      plugins:{legend:{display:false}}\n    }\n  });\n\n  lossesChart=new Chart(ctx2,{\n    type:'bar',\n    data:{\n      labels:[],\n      datasets:[{label:'Loss %',data:[],borderRadius:6}]\n    },\n    options:{\n      indexAxis:'y',\n      scales:{x:{beginAtZero:true,max:100}},\n      plugins:{legend:{display:false}}\n    }\n  });\n}\n\nfunction renderTable(data){\n  tbody.innerHTML='';\n  data.forEach(m=>{\n    const tr=document.createElement('tr');\n    tr.innerHTML=\\`\n      <td>\\${m.Mesin}</td>\n      <td>\\${m.Availability}%</td>\n      <td>\\${m.Performance}%</td>\n      <td>\\${m.Quality}%</td>\n      <td><strong>\\${m.OEE}%</strong></td>\n      <td>\\${m.Status}</td>\\`;\n    tbody.appendChild(tr);\n  });\n}\n\nasync function init(){\n  const all = await fetchData();\n  if(!all || !all.machines) return;\n\n  renderTable(all.machines);\n  const avg=all.avg;\n  elA.textContent=avg.availability+'%';\n  elP.textContent=avg.performance+'%';\n  elQ.textContent=avg.quality+'%';\n  elO.textContent=avg.oee+'%';\n\n  oeeTrendChart.data.datasets[0].data=all.trend;\n  oeeTrendChart.update();\n\n  lossesChart.data.labels=all.loss.labels;\n  lossesChart.data.datasets[0].data=all.loss.values;\n  lossesChart.update();\n}\n\ncreateCharts();\ninit();\n\n// Header interaction script\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const inputBtn = document.getElementById(\"inputBtn\");\n\n  inputBtn.addEventListener(\"click\", () => {\n    // Navigasi halus ke halaman input\n    inputBtn.textContent = \"Membuka...\";\n    inputBtn.disabled = true;\n    inputBtn.style.opacity = \"0.7\";\n\n    setTimeout(() => {\n      window.location.href = \"/oee/input\";\n    }, 500);\n  });\n});\n\n`);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e88d1c7621b592b3",
+        "type": "http in",
+        "z": "53035468cc5bdc08",
+        "name": "OEE Dashboard",
+        "url": "/oee",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "c8e3909e055501a4"
+            ]
+        ]
+    },
+    {
+        "id": "c8e3909e055501a4",
+        "type": "template",
+        "z": "53035468cc5bdc08",
+        "name": "OEE HTML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"id\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <title>OEE Dashboard</title>\n\n    <!-- Font -->\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\"\n      rel=\"stylesheet\"\n    />\n\n    <!-- Global CSS -->\n    <style>\n      {{{global.styleCSS}}}\n    </style>\n  </head>\n\n  <body>\n    <div class=\"wrap\">\n      <!-- Header -->\n      <header class=\"oee-header\">\n        <div class=\"header-left\">\n          <h1>OEE Dashboard — PT Astra Honda Motor</h1>\n          <p class=\"subtitle\">Interaktif | Data langsung dari Database MySQL</p>\n        </div>\n\n        <div class=\"header-right\">\n          <button id=\"inputBtn\" class=\"btn-accent\">\n            + Input Data\n          </button>\n        </div>\n      </header>\n\n      <!-- Main Section -->\n      <section class=\"grid\">\n        <!-- KPI Cards -->\n        <div class=\"card span-3\">\n          <div style=\"font-size: 13px; color: var(--muted);\">Availability</div>\n          <div class=\"kpi\">\n            <div class=\"big\" id=\"kpiAvailability\">--%</div>\n          </div>\n        </div>\n\n        <div class=\"card span-3\">\n          <div style=\"font-size: 13px; color: var(--muted);\">Performance</div>\n          <div class=\"kpi\">\n            <div class=\"big\" id=\"kpiPerformance\">--%</div>\n          </div>\n        </div>\n\n        <div class=\"card span-3\">\n          <div style=\"font-size: 13px; color: var(--muted);\">Quality</div>\n          <div class=\"kpi\">\n            <div class=\"big\" id=\"kpiQuality\">--%</div>\n          </div>\n        </div>\n\n        <div class=\"card span-3\">\n          <div style=\"font-size: 13px; color: var(--muted);\">OEE</div>\n          <div class=\"kpi\">\n            <div class=\"big\" id=\"kpiOEE\">--%</div>\n          </div>\n        </div>\n\n        <!-- Charts -->\n        <div class=\"card span-6\">\n          <canvas id=\"oeeTrendChart\"></canvas>\n        </div>\n\n        <div class=\"card span-6\">\n          <canvas id=\"lossesChart\"></canvas>\n        </div>\n\n        <!-- Table -->\n        <div class=\"card span-12\">\n          <table id=\"machinesTable\">\n            <thead>\n              <tr>\n                <th>Mesin</th>\n                <th>Availability</th>\n                <th>Performance</th>\n                <th>Quality</th>\n                <th>OEE</th>\n                <th>Status</th>\n              </tr>\n            </thead>\n            <tbody></tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- Footer -->\n      <footer>\n        <p>223443086 Muhammad Dirgam Shacio</p>\n        <p>223443073 Andreas Pahala Tua Naibaho</p>\n\n        <div style=\"margin-top:15px;\">\n          <button\n            class=\"footer-export-btn\"\n            onclick=\"window.location.href='http://localhost:1880/download_csv'\">\n            ⬇️ Export Data OEE (CSV)\n          </button>\n        </div>\n      </footer>\n\n    </div>\n\n    <!-- Chart.js -->\n    <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n\n    <!-- Global Script -->\n    <script>\n      {{{global.scriptJS}}}\n    </script>\n  </body>\n</html>\n",
+        "output": "str",
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "b3525ce73ea09de0"
+            ]
+        ]
+    },
+    {
+        "id": "b3525ce73ea09de0",
+        "type": "http response",
+        "z": "53035468cc5bdc08",
+        "name": "HTTP Response OEE",
+        "x": 630,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "84dc34d03d968ab9",
+        "type": "http in",
+        "z": "53035468cc5bdc08",
+        "name": "OEE Data API",
+        "url": "/oee/data",
+        "method": "get",
+        "upload": false,
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "0b8588cad5415d7e"
+            ]
+        ]
+    },
+    {
+        "id": "0b8588cad5415d7e",
+        "type": "function",
+        "z": "53035468cc5bdc08",
+        "name": "Query Machines + Metrics + Loss",
+        "func": "msg.topic = `\nSELECT \n    machine_name AS Mesin,\n    availability AS Availability,\n    performance AS Performance,\n    quality AS Quality,\n    oee AS OEE,\n    status AS Status\nFROM machine\nORDER BY machine_name;\n`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 240,
+        "wires": [
+            [
+                "5d0b1966d8936b02"
+            ]
+        ]
+    },
+    {
+        "id": "5d0b1966d8936b02",
+        "type": "mysql",
+        "z": "53035468cc5bdc08",
+        "mydb": "581b048ee8406a7e",
+        "name": "MySQL OEE Data",
+        "x": 730,
+        "y": 240,
+        "wires": [
+            [
+                "6d9d4f3370e439f3"
+            ]
+        ]
+    },
+    {
+        "id": "6d9d4f3370e439f3",
+        "type": "function",
+        "z": "53035468cc5bdc08",
+        "name": "Format JSON Output",
+        "func": "const data = msg.payload;\nif (!data || !data.length)\n    return { payload: { machines: [], avg: {}, trend: [], loss: { labels: [], values: [] } } };\n\nconst avg = { availability: 0, performance: 0, quality: 0, oee: 0 };\n\ndata.forEach(d => {\n    avg.availability += +d.Availability;\n    avg.performance += +d.Performance;\n    avg.quality += +d.Quality;\n    avg.oee += +d.OEE;\n});\n\nconst len = data.length;\nfor (let k in avg) avg[k] = +(avg[k] / len).toFixed(2);\n\nconst trend = Array.from({ length: 6 }, (_, i) => +(avg.oee + (Math.random() - 0.5) * 5).toFixed(2));\nconst loss = {\n    labels: ['Equipment Failure', 'Setup & Adjustment', 'Minor Stops', 'Reduced Speed', 'Defects & Rework'],\n    values: [25, 15, 20, 10, 5].map(v => +(v * (100 - avg.oee) / 100 + 5).toFixed(1))\n};\n\nmsg.payload = { machines: data, avg, trend, loss };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 240,
+        "wires": [
+            [
+                "582b9d52ca23d473",
+                "f5bac408015f90f9"
+            ]
+        ]
+    },
+    {
+        "id": "582b9d52ca23d473",
+        "type": "http response",
+        "z": "53035468cc5bdc08",
+        "name": "HTTP Response OEE Data",
+        "x": 1300,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f5bac408015f90f9",
+        "type": "function",
+        "z": "53035468cc5bdc08",
+        "name": "Redirect to Dashboard",
+        "func": "msg.statusCode = 302;\nmsg.headers = { Location: '/oee/input' };\nmsg.payload = '';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 380,
+        "wires": [
+            [
+                "3423e9225ef9af65"
+            ]
+        ]
+    },
+    {
+        "id": "3423e9225ef9af65",
+        "type": "http response",
+        "z": "53035468cc5bdc08",
+        "name": "HTTP Redirect Response",
+        "x": 1450,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "41d689dbde95fee3",
+        "type": "http in",
+        "z": "53035468cc5bdc08",
+        "name": "Download CSV",
+        "url": "/download_csv",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 480,
+        "wires": [
+            [
+                "5c12a2dc9767cfd0"
+            ]
+        ]
+    },
+    {
+        "id": "5c12a2dc9767cfd0",
+        "type": "function",
+        "z": "53035468cc5bdc08",
+        "name": "Query All For CSV",
+        "func": "msg.topic = 'SELECT * FROM machine'; \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 480,
+        "wires": [
+            [
+                "6f0ac55752cfcde8"
+            ]
+        ]
+    },
+    {
+        "id": "6f0ac55752cfcde8",
+        "type": "mysql",
+        "z": "53035468cc5bdc08",
+        "mydb": "581b048ee8406a7e",
+        "name": "MySQL Export CSV",
+        "x": 610,
+        "y": 480,
+        "wires": [
+            [
+                "59f44e0c934a766b"
+            ]
+        ]
+    },
+    {
+        "id": "59f44e0c934a766b",
+        "type": "function",
+        "z": "53035468cc5bdc08",
+        "name": "Convert to CSV",
+        "func": "const rows = msg.payload;\nif (!rows || rows.length === 0) {\n    msg.payload = 'Tidak ada data';\n    return msg;\n}\nconst header = Object.keys(rows[0]).join(',');\nconst csvRows = rows.map(r => Object.values(r).join(','));\nconst csv = [header, ...csvRows].join('\\n');\nmsg.payload = csv;\nmsg.headers = {\n    'Content-Type': 'text/csv',\n    'Content-Disposition': 'attachment; filename=\"Laporan_OEE.csv\"'\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 480,
+        "wires": [
+            [
+                "a50007c9b86db200"
+            ]
+        ]
+    },
+    {
+        "id": "a50007c9b86db200",
+        "type": "http response",
+        "z": "53035468cc5bdc08",
+        "name": "CSV Response",
+        "statusCode": "",
+        "headers": {},
+        "x": 1080,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "757d1f21aceb5d15",
+        "type": "http in",
+        "z": "e49b3c653e134583",
+        "name": "OEE Input Form",
+        "url": "/oee/input",
+        "method": "get",
+        "upload": false,
+        "x": 560,
+        "y": 200,
+        "wires": [
+            [
+                "412840f6e41ba204"
+            ]
+        ]
+    },
+    {
+        "id": "412840f6e41ba204",
+        "type": "template",
+        "z": "e49b3c653e134583",
+        "name": "HTML Form OEE Input",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"id\">\n<head>\n  <meta charset=\"utf-8\"/>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>\n  <title>Input Data Mesin & OEE</title>\n\n  <!-- Global CSS -->\n  <style>\n    {{{global.styleinputCSS}}}\n  </style>\n</head>\n\n<body>\n  <div class=\"wrap\">\n    <header class=\"oee-header\">\n      <div class=\"header-left\">\n        <h1>Input Data Mesin + OEE</h1>\n        <p class=\"subtitle\">Masukkan detail mesin dan parameter OEE di bawah ini</p>\n      </div>\n      <button id=\"backBtn\" class=\"btn-accent\">← Kembali</button>\n    </header>\n\n    <form method=\"POST\" action=\"/oee/submit\">\n      <label>Kode Mesin</label>\n      <input type=\"text\" name=\"machine_code\" required>\n\n      <label>Nama Mesin</label>\n      <input type=\"text\" name=\"machine_name\" required>\n\n      <label>Lokasi</label>\n      <input type=\"text\" name=\"location\" required>\n\n      <label>Status Mesin</label>\n      <select name=\"status\">\n        <option value=\"stabil\">Stabil</option>\n        <option value=\"perlu_perbaikan\">Perlu Perbaikan</option>\n        <option value=\"offline\">Offline</option>\n      </select>\n\n      <label>Shift</label>\n      <select name=\"shift\">\n        <option value=\"1\">1</option>\n        <option value=\"2\">2</option>\n        <option value=\"3\">3</option>\n        <option value=\"all\">All</option>\n      </select>\n\n      <label>Planned Time</label>\n      <input type=\"number\" step=\"0.01\" name=\"planned_time\" required>\n\n      <label>Runtime</label>\n      <input type=\"number\" step=\"0.01\" name=\"runtime\" required>\n\n      <label>Ideal Cycle Time</label>\n      <input type=\"number\" step=\"0.01\" name=\"ideal_cycle_time\" required>\n\n      <label>Total Count</label>\n      <input type=\"number\" name=\"total_count\" required>\n\n      <label>Good Count</label>\n      <input type=\"number\" name=\"good_count\" required>\n\n      <button type=\"submit\">💾 Simpan Data</button>\n    </form>\n\n    <footer>\n      <p>© 2025 Shacio OEE — Semua Hak Dilindungi</p>\n    </footer>\n  </div>\n\n  <!-- Global Script -->\n  <script>\n    {{{global.scriptinputJS}}}\n  </script>\n</body>\n</html>\n",
+        "x": 820,
+        "y": 200,
+        "wires": [
+            [
+                "ecbb236db220f40b"
+            ]
+        ]
+    },
+    {
+        "id": "ecbb236db220f40b",
+        "type": "http response",
+        "z": "e49b3c653e134583",
+        "name": "Response Form HTML",
+        "statusCode": "",
+        "headers": {},
+        "x": 1080,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "eb45c1d8b00c0fb0",
+        "type": "http in",
+        "z": "e49b3c653e134583",
+        "name": "OEE Form Submit",
+        "url": "/oee/submit",
+        "method": "post",
+        "upload": false,
+        "x": 560,
+        "y": 280,
+        "wires": [
+            [
+                "fde4dd80cd7f6509"
+            ]
+        ]
+    },
+    {
+        "id": "fde4dd80cd7f6509",
+        "type": "function",
+        "z": "e49b3c653e134583",
+        "name": "Check Existing Machine",
+        "func": "// Ambil data dari form\nlet d = msg.payload;\nmsg.machine = d;\nmsg.topic = `SELECT id FROM machine WHERE machine_code = '${d.machine_code}' LIMIT 1;`;\nreturn msg;",
+        "outputs": 1,
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "4ff1d7b127ea281f"
+            ]
+        ]
+    },
+    {
+        "id": "4ff1d7b127ea281f",
+        "type": "mysql",
+        "z": "e49b3c653e134583",
+        "mydb": "581b048ee8406a7e",
+        "name": "Check Machine in DB",
+        "x": 1090,
+        "y": 280,
+        "wires": [
+            [
+                "4c217fc619090a79"
+            ]
+        ]
+    },
+    {
+        "id": "4c217fc619090a79",
+        "type": "function",
+        "z": "e49b3c653e134583",
+        "name": "Insert or Update Machine",
+        "func": "let d = msg.machine;\n\n// Jika user isi ideal_cycle_time dalam pcs per jam → ubah ke jam per produk\nif (d.ideal_cycle_time > 1) {\n    d.ideal_cycle_time = 1 / d.ideal_cycle_time;  // hasil: jam per unit\n}\n\n// Cek apakah data sudah ada\nif (msg.payload.length > 0) {\n    msg.topic = `\n        UPDATE machine \n        SET \n            machine_name='${d.machine_name}',\n            location='${d.location}',\n            status='${d.status}',\n            shift='${d.shift}',\n            planned_time=${d.planned_time},\n            runtime=${d.runtime},\n            ideal_cycle_time=${d.ideal_cycle_time},\n            total_count=${d.total_count},\n            good_count=${d.good_count}\n        WHERE machine_code='${d.machine_code}'\n    `;\n} else {\n    msg.topic = `\n        INSERT INTO machine \n            (machine_code, machine_name, location, status, shift, planned_time, runtime, ideal_cycle_time, total_count, good_count) \n        VALUES \n            ('${d.machine_code}', '${d.machine_name}', '${d.location}', '${d.status}', '${d.shift}', ${d.planned_time}, ${d.runtime}, ${d.ideal_cycle_time}, ${d.total_count}, ${d.good_count})\n    `;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 280,
+        "wires": [
+            [
+                "cc0ac212d269f185"
+            ]
+        ]
+    },
+    {
+        "id": "cc0ac212d269f185",
+        "type": "mysql",
+        "z": "e49b3c653e134583",
+        "mydb": "581b048ee8406a7e",
+        "name": "Save Machine Data",
+        "x": 1620,
+        "y": 280,
+        "wires": [
+            [
+                "1c13a02baafec387"
+            ]
+        ]
+    },
+    {
+        "id": "1c13a02baafec387",
+        "type": "function",
+        "z": "e49b3c653e134583",
+        "name": "Redirect to Dashboard",
+        "func": "msg.statusCode = 302;\nmsg.headers = { Location: '/oee' };\nmsg.payload = '';\nreturn msg;",
+        "outputs": 1,
+        "x": 1360,
+        "y": 340,
+        "wires": [
+            [
+                "0580eb5a718ef943"
+            ]
+        ]
+    },
+    {
+        "id": "0580eb5a718ef943",
+        "type": "http response",
+        "z": "e49b3c653e134583",
+        "name": "HTTP Redirect Response",
+        "x": 1620,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ab6bc7e68467fa8f",
+        "type": "inject",
+        "z": "e49b3c653e134583",
+        "name": "Global OEE CSS+JS Loader",
+        "props": [],
+        "repeat": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "a750e0224d097843"
+            ]
+        ]
+    },
+    {
+        "id": "a750e0224d097843",
+        "type": "function",
+        "z": "e49b3c653e134583",
+        "name": "input CSS & JS",
+        "func": "global.set(\"styleinputCSS\", `\n:root {\n  --bg: #0f1724;\n  --card: #0b1220;\n  --muted: #98a0b3;\n  --accent: #06b6d4;\n  --success: #10b981;\n  --danger: #ef4444;\n  --glass: rgba(255,255,255,0.03);\n  --glass-2: rgba(255,255,255,0.02);\n}\n\n* { box-sizing: border-box; }\n\nhtml, body {\n  height: 100%;\n  margin: 0;\n  font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;\n  background: linear-gradient(180deg, #06121a 0%, #071728 60%);\n  color: #e6eef6;\n}\n\n.wrap { max-width: 700px; margin: 40px auto; padding: 20px; }\n\n.oee-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background: linear-gradient(135deg, var(--accent), #0056b3);\n  color: white;\n  padding: 20px 28px;\n  border-radius: 12px;\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);\n  margin-bottom: 28px;\n  transition: all 0.3s ease;\n}\n\n.oee-header .header-left h1 {\n  margin: 0;\n  font-size: 1.5rem;\n  font-weight: 700;\n  letter-spacing: 0.5px;\n}\n\n.oee-header .subtitle {\n  margin-top: 4px;\n  font-size: 13px;\n  color: #e0e0e0;\n}\n\n.btn-accent {\n  background: white;\n  color: var(--accent);\n  border: none;\n  border-radius: 10px;\n  padding: 10px 20px;\n  font-weight: 600;\n  font-size: 14px;\n  cursor: pointer;\n  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);\n  transition: all 0.3s ease;\n}\n\n.btn-accent:hover {\n  background: #f1f1f1;\n  transform: translateY(-2px);\n}\n\nform {\n  background: linear-gradient(180deg, var(--card), rgba(10, 16, 24, 0.8));\n  padding: 24px;\n  border-radius: 12px;\n  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);\n  border: 1px solid var(--glass-2);\n  transition: all 0.3s ease;\n}\n\nform:hover {\n  border-color: var(--accent);\n  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);\n}\n\nh2 {\n  text-align: center;\n  color: var(--accent);\n  margin-bottom: 20px;\n}\n\nlabel {\n  display: block;\n  margin-top: 14px;\n  font-size: 14px;\n  color: var(--muted);\n}\n\ninput, select {\n  width: 100%;\n  padding: 10px;\n  margin-top: 6px;\n  border: 1px solid var(--glass);\n  border-radius: 8px;\n  background: rgba(255,255,255,0.03);\n  color: #e6eef6;\n  font-size: 14px;\n  transition: all 0.2s ease;\n}\n\ninput:focus, select:focus {\n  border-color: var(--accent);\n  outline: none;\n  background: rgba(255,255,255,0.06);\n}\n\nbutton {\n  width: 100%;\n  background: var(--accent);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  padding: 12px;\n  margin-top: 20px;\n  font-weight: 600;\n  font-size: 15px;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);\n}\n\nbutton:hover {\n  background: #05a3bf;\n  transform: translateY(-2px);\n}\n\nfooter {\n  margin-top: 40px;\n  padding: 20px 10px;\n  background: rgba(255, 255, 255, 0.03);\n  border: 1px solid var(--glass-2);\n  border-radius: 12px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);\n  text-align: center;\n  font-size: 13px;\n  color: var(--muted);\n  backdrop-filter: blur(8px);\n  transition: all 0.3s ease;\n}\n\nfooter:hover {\n  border-color: var(--accent);\n  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);\n}\n\nfooter p {\n  margin: 4px 0;\n  font-weight: 500;\n}\n`);\n\n\nglobal.set(\"scriptinputJS\", `\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const backBtn = document.getElementById(\"backBtn\");\n  if (backBtn) {\n    backBtn.addEventListener(\"click\", () => {\n      backBtn.textContent = \"Kembali...\";\n      backBtn.disabled = true;\n      backBtn.style.opacity = \"0.7\";\n      setTimeout(() => {\n        window.location.href = \"/oee\";\n      }, 500);\n    });\n  }\n});\n`);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22317d345c540847",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-node-mysql": "2.0.0"
+        }
+    }
+]
