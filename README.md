@@ -2,7 +2,7 @@
 
 A **Manufacturing Execution System (MES)** built with Node-RED, featuring real-time OEE (Overall Equipment Effectiveness) monitoring, machine data management, and material handling tracking.
 
-> Developed for PT Astra — "Shacio OEE" system
+> Developed for PT Astra — system
 
 ---
 
