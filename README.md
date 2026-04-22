@@ -108,17 +108,12 @@ node-red-mes-oee/
 
 ## 📸 Flow Overview
 
-| Tab | Description |
-|---|---|
-| `Login` | <img width="1600" height="900" alt="WhatsApp Image 2026-04-22 at 20 58 56" src="https://github.com/user-attachments/assets/a21f5ca6-1920-4a65-8084-a5736d379508" />
- |
-| `Dashboard OEE PT Astra` | <img width="1600" height="900" alt="WhatsApp Image 2026-04-22 at 20 58 57" src="https://github.com/user-attachments/assets/8e5f7f77-b0ee-48a7-8e5f-11f3bf7bef07" />
- |
-| `Input` | <img width="1600" height="900" alt="WhatsApp Image 2026-04-22 at 20 58 57 (1)" src="https://github.com/user-attachments/assets/789d4236-19f6-4541-9f74-83e49bc02a9c" />
- |
-| `Dataset Dashboard` | <img width="1600" height="453" alt="WhatsApp Image 2026-04-22 at 20 58 58" src="https://github.com/user-attachments/assets/6c775a84-c323-452d-b91c-0c5896ef3f9e" />
- |
-
+| Tab | Description | Preview |
+|---|---|---|
+| `Login` | User authentication flow | ![Login](https://github.com/user-attachments/assets/a21f5ca6-1920-4a65-8084-a5736d379508) |
+| `Dashboard OEE PT Astra` | Main OEE monitoring dashboard | ![Dashboard](https://github.com/user-attachments/assets/8e5f7f77-b0ee-48a7-8e5f-11f3bf7bef07) |
+| `Input` | Machine data entry form with MySQL upsert logic | ![Input](https://github.com/user-attachments/assets/789d4236-19f6-4541-9f74-83e49bc02a9c) |
+| `Dataset Dashboard` | Tabular view of OEE records | ![Dataset](https://github.com/user-attachments/assets/6c775a84-c323-452d-b91c-0c5896ef3f9e) |
 ---
 
 ## 📄 License
