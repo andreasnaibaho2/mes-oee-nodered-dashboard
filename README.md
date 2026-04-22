@@ -110,7 +110,7 @@ node-red-mes-oee/
 
 | Tab | Description |
 |---|---|
-| `Login` | 
+| `Login` | <img width="1600" height="900" alt="WhatsApp Image 2026-04-22 at 20 58 56" src="https://github.com/user-attachments/assets/a21f5ca6-1920-4a65-8084-a5736d379508" />
  |
 | `Dashboard OEE PT Astra` | Main OEE monitoring dashboard |
 | `Input` | Machine data entry form with MySQL upsert logic |
