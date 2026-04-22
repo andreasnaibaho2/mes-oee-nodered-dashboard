@@ -110,7 +110,8 @@ node-red-mes-oee/
 
 | Tab | Description |
 |---|---|
-| `Login` | Authentication flow |
+| `Login` | 
+ |
 | `Dashboard OEE PT Astra` | Main OEE monitoring dashboard |
 | `Input` | Machine data entry form with MySQL upsert logic |
 | `Material Handling` | AGV & Conveyor monitoring panels |
